@@ -1,0 +1,127 @@
+@import "../../../shared/styles/main_branded.scss";
+
+.bannerWrapper {
+  max-width: 728px;
+  justify-content: flex-end;
+}
+
+.banner__frame {
+  width: 728px;
+  height: 90px;
+  top: auto;
+  left: auto;
+  border: solid 1px $black;
+
+  &--left {
+    display: inline-flex;
+    align-items: center;
+    width: 428px;
+    height: 100%;
+  }
+
+  &--top-body{
+    background-image: url('../img/728X90-background-2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+    width: 301px;
+
+    .h2{
+      text-align: left;
+      padding-left: 33px;
+    }
+  }
+
+  &--logo {
+    padding: 8px 8px 8px 9px;
+    flex-direction: column;
+
+    .logo__left {
+
+      img {
+        width: 110px;
+        height: 30px;
+        margin-bottom: 10px;
+      }
+    }
+
+    .logo__right {
+      border-top: 1px solid $darkBlue;
+
+      img {
+        width: 110px;
+        height: 22px;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  &--footnote {
+    padding: 0 0 0 33px;
+    bottom: 7px;
+  }
+
+  &--one {
+    .banner__frame--top-body {
+      .h2{
+        padding-top: 9px;
+        font-size: $fontSize13;
+      }
+    }
+  }
+
+  &--two {
+    .banner__frame--top-body {
+      .h2{
+        padding-top: 14px;
+      }
+    }
+  }
+
+  &--three {
+    .banner__frame--top-body {
+      .h2{
+        padding-top: 14px;
+        font-size: $fontSize16;
+      }
+    }
+  }
+
+  &--four {
+    .banner__frame--top-body {
+      .h2{
+        display: inline-block;
+        padding-left: 11px;
+      }
+      .copyContainer{
+        padding-top: 19px;
+        display: flex;
+        align-items: center;
+      }
+      .btn{
+        margin: 0 0 0 14px;
+        width: 132px;
+        height: 33px;
+      }
+    }
+  }
+
+  &--text{
+    .indicationBody{
+      padding-top: 28px;
+    }
+  }
+}
+
+#IsiContent {
+  top: -44px;
+}
+
+.one {
+  height: 88px;
+}
+
+.bottomSectionOuter {
+  max-width: 299px;
+}

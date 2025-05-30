@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
+
+/*********************
+03. HEADINGS & LINKS
+*********************/
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    margin: 0;
+}
+
+/* OTHER FONT STYLES
+----------------------------------------------------------*/
+
+i,
+em {
+    font-style: italic;
+    font-family: $italicFontFamily;
+}
+
+

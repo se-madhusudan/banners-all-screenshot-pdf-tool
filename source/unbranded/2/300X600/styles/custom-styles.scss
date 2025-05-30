@@ -1,0 +1,78 @@
+@import "../../../shared/styles/_main_unbranded.scss";
+
+.banner__frame {
+  width: 300px;
+  height: 600px;
+
+  &--one,
+  &--two,
+  &--three ,
+  &--four{
+    background-image: url(../img/300X600-background-2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &--logo {
+    padding: 27px 0 0 0;
+    p{
+      padding-bottom: 15px;
+    }
+
+    img{
+      width: 255px;
+      height: 49px;
+      margin: 0 auto;
+    }
+  }
+
+  &--top {
+    .h2 {
+      font-size: $fontSize24;
+    }
+  }
+
+  &--top-body {
+    padding-top: 150px;
+  }
+
+  &--two {
+    .banner__frame {
+      &--top-body {
+        padding-top: 166px;
+      }
+    }
+  }
+
+  &--four {
+    .banner__frame {
+      &--top-body {
+        padding-top: 123px;
+        .h2{
+          padding-bottom: 20px;
+        }
+        
+      }
+    }
+  }
+
+  .btn{
+    span{
+      font-size: $fontSize16;
+      width: 160px;
+      height: 35px;
+      margin-bottom: 225px;
+      box-shadow: 0px 2.231px 4.462px 0px rgba(0, 0, 0, 0.12);
+      background: $buttonBG1;
+      color: $buttonText1;
+      letter-spacing: 0.32px;
+    }
+  }
+
+  &--textFooter {
+    bottom: 10px;
+    p{
+      color: $white;
+    }
+  }
+}

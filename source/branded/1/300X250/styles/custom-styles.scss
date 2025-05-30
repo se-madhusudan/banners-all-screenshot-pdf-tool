@@ -1,0 +1,72 @@
+@import "../../../shared/styles/main_branded.scss";
+
+.banner__frame {
+  &--logo {
+    padding: 8px 10px 0 10px;
+
+    .logo__left {
+      border-right: 1px solid $darkBlue;
+
+      img {
+        width: 129px;
+        margin-right: 10px;
+      }
+    }
+
+    .logo__right {
+      img {
+        width: 129px;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  &--top {
+    background-image: url('../img/300X250-background-2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 154px;
+    .h2 {
+      padding-top: 13px;
+    }
+  }
+
+  &--one {
+    .h2 {
+      font-size: $fontSize14;
+      padding-top: 20px;
+    }
+  }
+
+  &--two {
+    .h2 {
+      padding-top: 22px;
+    }
+  }
+
+  &--three {
+    .h2 {
+      padding-top: 22px;
+    }
+  }
+
+  &--four {
+    .h2 {
+      margin-bottom: 7px;
+    }
+  }
+
+  &--text{
+    .indicationBody{
+      padding-top: 28px;
+    }
+  }
+}
+
+#IsiContent {
+  top: 30px;
+}
+
+.one {
+  height: 89px;
+}

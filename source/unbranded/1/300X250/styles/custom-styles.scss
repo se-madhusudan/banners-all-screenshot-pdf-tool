@@ -1,0 +1,32 @@
+@import "../../../shared/styles/_main_unbranded.scss";
+
+.banner__frame {
+    &--one,
+    &--two,
+    &--three ,
+    &--four{
+        background-image: url(../img/300X250-background-2x.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    &--two {
+        .banner__frame {
+            &--top-body {
+                padding-top: 20px;
+            }
+        }
+    }
+    
+    &--four{
+        .banner__frame{
+            &--top-body{
+                padding-top: 20px;
+                .h2{
+                    padding-bottom: 20px;
+                    font-size: $fontSize17;
+                }
+            }
+        }
+    }
+}

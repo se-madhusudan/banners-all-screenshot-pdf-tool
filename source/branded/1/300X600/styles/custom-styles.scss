@@ -1,0 +1,93 @@
+@import "../../../shared/styles/main_branded.scss";
+
+.bannerWrapper {
+  max-width: 300px;
+}
+
+.banner__frame {
+  height: 600px;
+
+  &--top {
+    background-image: url('../img/300X600-background-2x.png');
+    height: 400px;
+    padding: 0;
+
+    .btn {
+      width: 132px;
+      height: 34px;
+    }
+  }
+
+  &--top-body {
+    padding-top: 104px;
+
+    .h2 {
+      font-size: $fontSize24;
+    }
+  }
+
+  &--header{
+    padding-top: 14px;
+  }
+
+  &--logo {
+    padding: 10px 10px 0 10px;
+
+    .logo__left {
+      border-right: 1px solid $darkBlue;
+
+      img {
+        max-width: 129px;
+        margin-right: 10px;
+      }
+    }
+
+    .logo__right {
+      img {
+        max-width: 129px;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  &--footnote {
+    bottom: 15px;
+  }
+
+  &--one {
+    .banner__frame--top-body {
+      padding-top: 120px;
+      .h2 {
+        font-size: $fontSize18;
+      }
+    }
+  }
+
+  &--four {
+    .banner__frame--top-body {
+      padding-top: 122px;
+
+      .h2 {
+        margin-bottom: 17px;
+      }
+    }
+  }
+
+  &--footer{
+    bottom: -16px;
+  }
+
+  &--text{
+    .indicationBody{
+      padding-top: 28px;
+    }
+  }
+}
+
+#IsiContent {
+  top:101px;
+}
+
+.one {
+  height: 198px;
+}

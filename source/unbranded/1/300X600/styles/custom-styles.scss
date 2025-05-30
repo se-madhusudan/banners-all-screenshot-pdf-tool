@@ -1,0 +1,72 @@
+@import "../../../shared/styles/_main_unbranded.scss";
+
+.banner__frame {
+  width: 300px;
+  height: 600px;
+
+  &--one,
+  &--two,
+  &--three ,
+  &--four{
+    background-image: url(../img/300X600-background-2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &--logo {
+    padding: 26px 0 0 0;
+    p{
+      padding-bottom: 10px;
+    }
+
+    img{
+      width: 255px;
+      height: 49px;
+      margin: 0 auto;
+    }
+  }
+
+  &--top {
+    .h2 {
+      font-size: $fontSize24;
+    }
+  }
+
+  &--top-body {
+    padding-top: 158px;
+  }
+
+  &--one {
+    .banner__frame {
+      &--top-body {
+        padding-top: 174px;
+      }
+    }
+  }
+
+  &--four {
+    .banner__frame {
+      &--top-body {
+        padding-top: 128px;
+        .h2{
+          padding-bottom: 25px;
+        }
+        
+      }
+    }
+  }
+
+  .btn{
+    span{
+      font-size: $fontSize16;
+      width: 160px;
+      height: 35px;
+      margin-bottom: 184px;
+      letter-spacing: 0.32px;
+    }
+  }
+
+  &--textFooter {
+    bottom: 10px;
+  }
+}

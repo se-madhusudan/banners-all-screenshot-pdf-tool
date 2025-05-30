@@ -1,0 +1,88 @@
+@import "../../../shared/styles/_main_unbranded.scss";
+
+.banner__frame {
+  width: 728px;
+  height: 90px;
+
+  &--logo {
+    padding: 16px 0 0 10px;
+    text-align: left;
+    width: 220px;
+    p{
+      text-align: center;
+    }
+
+    img {
+      width: 191px;
+      height: 37px;
+      margin: 0 0 0 8px;
+    }
+  }
+
+  &--top {
+    height: 100%;
+    display: flex;
+
+    .h2 {
+      text-align: left;
+      font-size: $fontSize20;
+    }
+  }
+
+  &--textFooter {
+    padding: 0;
+    bottom: 5px;
+    width: calc(100% - 247px);
+    left: 247px;
+    p{
+      color: $white;
+      padding-right: 10px;
+      &:first-child{
+        padding-right: 0;
+      }
+    }
+  }
+
+  .btn {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+
+    span {
+      width: 135px;
+      height: 37px;
+      margin: 25px 10px 0 0;
+      box-shadow: 0px 2.231px 4.462px 0px rgba(0, 0, 0, 0.12);
+      background: $buttonBG1;
+      color: $buttonText1;
+      letter-spacing: 0.32px;
+      font-size: $fontSize16;
+    }
+  }
+
+  &--top-body {
+    padding: 30px 0 0 26px;
+    width: 500px;
+  }
+
+  &--one,
+  &--two,
+  &--three ,
+  &--four{
+    background-image: url(../img/728X90-background-2x.png);
+    background-size: 100%;
+  }
+
+  &--three {
+    .banner__frame--top-body {
+      padding-top: 10px;
+    }
+  }
+
+  &--four {
+    .banner__frame--top-body {
+      padding-top: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
